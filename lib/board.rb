@@ -1,24 +1,12 @@
 # Define the variable board below.
-def display_board
-board = Array.new
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+#def display_board
+#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+#puts "Welcome to Tic Tac Toe!"
+#display_board(board)
+#play(board)
 
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
-  puts "-----------"
-  puts " #{board[3]} | #{board[4]} | #{board[5]} "
-  puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+def initialize #
+        # set up the board
+        @board = Board.new
 
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
-  puts "-----------"
-  puts " #{board[3]} | #{board[4]} | #{board[5]} "
-  puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
-
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
-  puts "-----------"
-  puts " #{board[3]} | #{board[4]} | #{board[5]} "
-  puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
-
-  
+      
